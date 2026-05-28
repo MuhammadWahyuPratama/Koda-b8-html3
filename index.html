@@ -3,97 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catur Table</title>
+    <title>Chess Board</title>
+    <style>
+    .board{
+        width: 800px;
+        font-size: 0;
+        border: 5px solid rgb(29, 14, 0);
+        margin: 50px auto;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        display: inline-block;            
+    }
+    .white{
+        background-color: rgb(255, 199, 135);
+    }
+    .black{
+        background-color: black;
+    }
+
+    </style>
 </head>
 <body>
     <h1 align="center">Chess Board</h1>
-<div align="center" >
-    <table border="1">
-        <thead>
-            <tr></tr>
-        </thead>
-    
-        <tbody>
-            <tr>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-            </tr>
-            <tr>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-            </tr><tr>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-            </tr><tr>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-            </tr>
-            <tr>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-                <td bgcolor="black" width="50" height="50"></td>
-                <td bgcolor="white" width="50" height="50"></td>
-            </tr>
-        </tbody>
-    </table>
+ <div class="board">
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+    <div class="box black"></div>
+    <div class="box white"></div>
+
 </div>
+
 </body>
 </html>
